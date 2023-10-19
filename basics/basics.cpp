@@ -25,6 +25,17 @@ int main(){
 
     // How to print with a precision value
     // cout << fixed << setprecision(10) << x/(double)2 << "\n";
+
+    // ## Questions??
+
+    // # 1. How to build a character size array for lowercase alphabets?
+    // int arr[26] = {0} 
+    // To access a particular character value: arr[s[i] - 'a']
+    // The s[i] - 'a' basically subtracts value of any character - character a.
+
+    // 2. How to build a character size array for all the characters?
+    // int arr[256] = {0}
+    // Same access methods.
     return 0;
 }
 
